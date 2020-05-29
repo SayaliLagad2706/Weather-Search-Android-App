@@ -3,7 +3,7 @@
 - The app is developed in Java with the server-side implementation in Node.js hosted on AWS
 - The app opens with a splash screen displaying the app icon after which, the weather forecast for user's current location will be displayed.
 - This page has a clickable card which takes the user to detailed weather information of the location.
-- This page contains tabs where each tab contains different information such as: the temperature details for the location in chart form, images of the searched city. MPAndroidChart is used to display temperature chart and Picasso library is used to display images of the location
+- This page contains tabs where each tab contains different information such as: the temperature details for the location in chart form, images of the searched city. MPAndroidChart is used to display temperature chart and Picasso library is used to display images of the location along with RecyclerView
 - There is also a search bar with autosuggest feature that enables the user to search for the weather details of any city in the world. Google Autocomplete API is used to implement this feature
 - The user can mark certain cities (maximum 10) as favorites which add as fragments on the home screen. This enables the user to quickly see the weather details for these cities each time the app is opened
 - The app also allows the user to tweet about the weather at any location using the Twitter API
